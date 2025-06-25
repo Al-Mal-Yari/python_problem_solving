@@ -19,7 +19,7 @@ Let's change how we are calculating our player's stats! The only thing we should
 Declare the variable player_level at the top of the global scope and set it to 4.
 """
 
-# ?
+player_level = 4
 
 # Don't touch below this line
 
