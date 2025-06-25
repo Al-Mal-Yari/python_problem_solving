@@ -15,10 +15,14 @@ Return new_health
 """
 
 def get_punched(health: int, armor: int = 0) -> int:
-
+  damage = max(50 - armor, 0)
+  new_health = max(health - damage, 0)
+  return new_health
   
 def get_slashed(health: int, armor: int = 0) -> int:
-
+  damage = max(100 - armor, 0)
+  new_health = max(health - damage, 0)
+  return new_health
 
 # Don't touch below this line
 
