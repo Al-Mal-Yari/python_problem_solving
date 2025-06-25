@@ -11,8 +11,8 @@ A greater curse is more powerful than a lesser curse, so it reduces the damage m
 """
 
 def curse(weapon_damage: int) -> int:
-    lesser_cursed = weapon_damage * 0.50
-    greater_cursed = weapon_damage * 0.75
+    lesser_cursed = weapon_damage - (weapon_damage * 0.50)
+    greater_cursed = weapon_damage - (weapon_damage * 0.75)
     return lesser_cursed, greater_cursed
 
 # Don't modify below this line
