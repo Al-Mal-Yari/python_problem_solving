@@ -10,7 +10,8 @@ Complete the to_celsius function body. It should return the temperature in Celsi
 """
 
 def to_celsius(f: int) -> int:
-    
+    f_to_c = 5/9 * (f - 32)
+    return f_to_c
 
 ## Don't touch below this line
 
