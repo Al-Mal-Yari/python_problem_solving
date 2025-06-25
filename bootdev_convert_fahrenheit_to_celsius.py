@@ -9,7 +9,8 @@ In Fantasy Quest, characters lose health due to heat exhaustion. The game tracks
 Complete the to_celsius function body. It should return the temperature in Celsius for a given Fahrenheit temperature (f parameter).
 """
 
-def to_celsius(f):
+def to_celsius(f: int) -> int:
+    
 
 ## Don't touch below this line
 
