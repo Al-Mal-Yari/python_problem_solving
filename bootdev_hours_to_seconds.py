@@ -7,7 +7,9 @@ We need to display the current time to our players. The problem is that the time
 Complete the hours_to_seconds function. It should convert hours to seconds and return the result.
 """
 
-def hours_to_seconds(hours):
+def hours_to_seconds(hours: int) -> int:
+    return hours * 3600
+# or return hours * 60 * 60
 
 # Don't touch below this line
 
