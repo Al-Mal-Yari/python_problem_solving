@@ -14,10 +14,10 @@ Create a new_health variable equal to the input health minus damage
 Return new_health
 """
 
-def get_punched(health, armor):
+def get_punched(health: int, armor: int = 0) -> int:
 
   
-def get_slashed(health, armor):
+def get_slashed(health: int, armor: int = 0) -> int:
 
 
 # Don't touch below this line
