@@ -10,7 +10,10 @@ Return both title and new_power
 """
 
 def become_warrior(full_name: str, power: int) -> tuple[str, int]:
-
+    title = (f"{full_name} the warrior")
+    new_power = power + 1
+    return title, new_power
+    
 # Don't edit below this line
 
 def main():
