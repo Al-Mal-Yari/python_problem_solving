@@ -9,7 +9,7 @@ Create the new_power value that is equal to the input power plus one.
 Return both title and new_power
 """
 
-def become_warrior(full_name, power):
+def become_warrior(full_name: str, power: int) -> tuple[str, int]:
 
 # Don't edit below this line
 
