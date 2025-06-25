@@ -20,7 +20,7 @@ axe -> enchanted axe
 Return the enchanted weapon and the new health in that order.
 """
 
-def enchant_and_attack(target_health: int, damage: int, weapon: str) -> tuple[int, int, str]:
+def enchant_and_attack(target_health: int, damage: int, weapon: str) -> tuple[str, int]:
     enchanted_damage = damage + 10
     new_health = target_health - enchanted_damage
     enchanted_weapon = (f"enchanted {weapon}")
